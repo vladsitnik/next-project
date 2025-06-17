@@ -23,7 +23,7 @@ next-test-project/
 
 ```bash
 git clone 
-cd next-test-project
+cd next-project
 ```
 ### 2. Add Environment Variables
 
@@ -54,3 +54,7 @@ WebSocket Server ws://localhost:3001
 Username  admin
 Password  admin
 ```
+
+## Demo
+
+[Demo link](https://drive.google.com/file/d/1iJHZfvz5NNPmnOg_QuW50_qT0nWRUNBm/view?usp=sharing)
