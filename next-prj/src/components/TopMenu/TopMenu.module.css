@@ -1,0 +1,11 @@
+.searchInput {
+  max-width: 300px;
+}
+
+.dateBlock {
+  min-width: 150px;
+}
+
+.sessionBlock {
+  min-width: 200px;
+}

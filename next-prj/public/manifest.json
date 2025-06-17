@@ -1,0 +1,42 @@
+{
+  "name": "Inventory App",
+  "short_name": "Inventory",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#28a745",
+  "icons": [
+    {
+      "src": "/custom_icon_512x512.png",
+      "sizes": "512x512",
+      "type": "image/x-icon"
+    }
+  ]
+  ,
+  "screenshots": [
+    {
+      "src": "/screenshot_wide_540x720.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot_wide_1080x1440.png",
+      "sizes": "1080x1440",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot_narrow_360x480.png",
+      "sizes": "360x480",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot_narrow_720x960.png",
+      "sizes": "720x960",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}

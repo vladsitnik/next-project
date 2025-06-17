@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  nextjs:
+    build: ./next-prj
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./next-prj:/app
+    working_dir: /app
+    command: npm run dev
+    depends_on:
+      - socket-server
+    environment:
+      NEXT_PUBLIC_SOCKET_URL: http://socket-server:3001
+
+  socket-server:
+    build:
+      context: ./socket-server
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./socket-server:/app
+    working_dir: /app
+    command: node server.js
